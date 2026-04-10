@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
     proxy: {
-      '/api': 'http://localhost:5000', // your backend port
+      '/api': 'https://insta-profile-analyzer.onrender.com/', // your backend port
     },
   },
 })
